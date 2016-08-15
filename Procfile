@@ -1,1 +1,1 @@
-heroku ps:scale worker=1
+web:    java -cp target/classes:target/dependency/* Main
