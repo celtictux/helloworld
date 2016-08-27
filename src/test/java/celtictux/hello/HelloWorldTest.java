@@ -1,4 +1,4 @@
-package adamkelso1987.hello;
+package celtictux.hello;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -6,7 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Created by Adam Kelso on 09/11/2015.
+ * Created by celtictux@github on 09/11/2015.
  */
 public class HelloWorldTest {
 

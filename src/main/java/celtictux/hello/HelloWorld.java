@@ -1,12 +1,12 @@
-package adamkelso1987.hello;
+package celtictux.hello;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by Adam Kelso on 09/11/2015.
+ * Created by celtictux@github on 09/11/2015.
  */
-@RestController
+@RestController()
 public class HelloWorld {
 
     private static final String STATEMENT = "Hello ";

@@ -14,7 +14,7 @@
          fully-qualified @Configuration classes -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>adamkelso1987.config.HelloConfig</param-value>
+        <param-value>celtictux.config.HelloConfig</param-value>
     </context-param>
 
     <!-- Declare a Spring MVC DispatcherServlet as usual -->
@@ -31,7 +31,7 @@
              and fully-qualified @Configuration classes -->
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>adamkelso1987.config.HelloConfig</param-value>
+            <param-value>celtictux.config.HelloConfig</param-value>
         </init-param>
     </servlet>
 </web-app>

@@ -1,16 +1,16 @@
-package adamkelso1987.config;
+package celtictux.config;
 
-import adamkelso1987.hello.HelloWorld;
+import celtictux.hello.HelloWorld;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /**
- * Created by adamkelso on 14/08/2016.
+ * Created by celtictux@github on 14/08/2016.
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "adamkelso1987")
+@ComponentScan(basePackages = "celtictux")
 public class HelloConfig {
 
     public HelloWorld helloWorld() {
